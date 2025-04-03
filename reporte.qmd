@@ -7,6 +7,8 @@ format:
 
 ## Prueba de subir un reporte Quarto a Github
 
+Hola esta es un actualización
+
 ```{r}
 library(ggplot2)
 
@@ -14,7 +16,7 @@ iris |>
   ggplot() +
   aes(x = Sepal.Length, y = Sepal.Width, color = Species) +
   geom_point() +
-  scale_color_brewer(palette = "Dark2") +
-  theme_void()
+  scale_color_brewer(palette = "Set2") +
+  theme_minimal()
 ```
 
