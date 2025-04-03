@@ -17,3 +17,9 @@ gitcreds::gitcreds_set()
 # —----
 
 
+use_git()
+
+usethis::use_github()
+
+
+# .nojekyll

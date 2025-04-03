@@ -1,0 +1,20 @@
+---
+title: "Prueba"
+format: 
+  html:
+    output-file: "index"
+---
+
+## Prueba de subir un reporte Quarto a Github
+
+```{r}
+library(ggplot2)
+
+iris |> 
+  ggplot() +
+  aes(x = Sepal.Length, y = Sepal.Width, color = Species) +
+  geom_point() +
+  scale_color_brewer(palette = "Dark2") +
+  theme_void()
+```
+
